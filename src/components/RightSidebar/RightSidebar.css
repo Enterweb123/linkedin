@@ -1,0 +1,50 @@
+.Right_sidebar {
+    position: sticky;
+    top: 80px;
+    flex: 0.2;
+    border-radius: 10px;
+    text-align: center;
+    height: fit-content;
+}
+
+.Right_sidebar_title{
+    display:flex;
+    flex-direction:column;
+    gap:1px;
+}
+
+.Right_sidebar_title > h6{
+    font-size: 15px;
+}
+
+.sidebar_bottoms {
+    display:flex;
+    flex-direction:column;
+    text-align: left;
+    padding: 10px;
+    background-color: white;
+    margin-top: 10px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+.Right_sidebar_recentItem {
+    display: flex;
+    gap: 10px;
+    font-size: 10px;
+    align-items:center;
+}
+
+.Right_sidebar_recentItem:hover {
+    color: rgb(0, 0, 0);
+    background-color: whitesmoke;
+    border-radius: 10px;
+    cursor: pointer;
+    color: black;
+}
+
+.show_more{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
